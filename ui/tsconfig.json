@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "downlevelIteration": true,
+    "declaration": true,
+    "allowJs": true,
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "module": "ES2015",
+    "target": "ES2015",
+    "baseUrl": "./",
+    "strict": true,
+    "jsx": "react-jsx",
+    "paths": {
+      "*": ["node_modules/*"],
+      "hooks/*": ["src/hooks/*"],
+      "types/*": ["src/types/*"],
+      "extensionProps/components": ["src/types/extensionProps/componentsTypes"],
+      "extensionProps/common": ["src/types/extensionProps/common"],
+      "extensionProps/utils": ["src/types/extensionProps/utilsTypes"],
+      "extensionProps/actions": ["src/types/extensionProps/actionsTypes"],
+      "extensionProps/validators": ["src/types/extensionProps/validatorTypes"],
+    },
+    "typeRoots": ["node_modules/@types"],
+    "outDir": "build/types",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": false,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["src/**/*", "src/**/*.d.ts"],
+  "exclude": ["node_modules", "build"]
+}
