@@ -1,0 +1,2096 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="20" ignored="20" total="95" passed="49" failed="6" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[This test is expected to fail]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-05-14T17:06:44 MSK" name="Nested steps tests" finished-at="2025-05-14T17:06:45 MSK"
+    duration-ms="306">
+    <groups>
+    </groups>
+    <test started-at="2025-05-14T17:06:44 MSK" name="Test internet shop" finished-at="2025-05-14T17:06:45 MSK"
+      duration-ms="34">
+      <class name="com.epam.reportportal.example.testng.logback.step.NestedStepsTest">
+        <test-method
+          signature="orderProductsTestOld()[pri:0, instance:com.epam.reportportal.example.testng.logback.step.NestedStepsTest@61dd1c3d]"
+          started-at="2025-05-14T17:06:44 MSK" name="orderProductsTestOld" finished-at="2025-05-14T17:06:44 MSK"
+          duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderProductsTestOld -->
+        <test-method
+          signature="orderProductsTest()[pri:0, instance:com.epam.reportportal.example.testng.logback.step.NestedStepsTest@61dd1c3d]"
+          started-at="2025-05-14T17:06:44 MSK" name="orderProductsTest" finished-at="2025-05-14T17:06:44 MSK"
+          duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderProductsTest -->
+      </class> <!-- com.epam.reportportal.example.testng.logback.step.NestedStepsTest -->
+    </test> <!-- Test internet shop -->
+    <test started-at="2025-05-14T17:06:45 MSK" name="Test number format" finished-at="2025-05-14T17:06:45 MSK"
+      duration-ms="269">
+      <class name="com.epam.reportportal.example.testng.logback.step.NestedStepsWithDataProvider">
+        <test-method
+          signature="testNumberConversion()[pri:0, instance:com.epam.reportportal.example.testng.logback.step.NestedStepsWithDataProvider@54275b5d, instance params:[1, one]]"
+          started-at="2025-05-14T17:06:45 MSK" name="testNumberConversion" finished-at="2025-05-14T17:06:45 MSK"
+          duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNumberConversion -->
+        <test-method
+          signature="testNumberConversion()[pri:0, instance:com.epam.reportportal.example.testng.logback.step.NestedStepsWithDataProvider@5d01b0d8, instance params:[2, two]]"
+          started-at="2025-05-14T17:06:45 MSK" name="testNumberConversion" finished-at="2025-05-14T17:06:45 MSK"
+          duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNumberConversion -->
+        <test-method
+          signature="testNumberConversion()[pri:0, instance:com.epam.reportportal.example.testng.logback.step.NestedStepsWithDataProvider@271e851e, instance params:[3, three]]"
+          started-at="2025-05-14T17:06:45 MSK" name="testNumberConversion" finished-at="2025-05-14T17:06:45 MSK"
+          duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNumberConversion -->
+        <test-method
+          signature="testNumberConversion()[pri:0, instance:com.epam.reportportal.example.testng.logback.step.NestedStepsWithDataProvider@31b6b0c7, instance params:[6, six]]"
+          started-at="2025-05-14T17:06:45 MSK" name="testNumberConversion" finished-at="2025-05-14T17:06:45 MSK"
+          duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNumberConversion -->
+        <test-method
+          signature="testNumberConversion()[pri:0, instance:com.epam.reportportal.example.testng.logback.step.NestedStepsWithDataProvider@6253e59a, instance params:[7, seven]]"
+          started-at="2025-05-14T17:06:45 MSK" name="testNumberConversion" finished-at="2025-05-14T17:06:45 MSK"
+          duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNumberConversion -->
+        <test-method
+          signature="testNumberConversion()[pri:0, instance:com.epam.reportportal.example.testng.logback.step.NestedStepsWithDataProvider@ff21443, instance params:[4, four]]"
+          started-at="2025-05-14T17:06:45 MSK" name="testNumberConversion" finished-at="2025-05-14T17:06:45 MSK"
+          duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNumberConversion -->
+        <test-method
+          signature="testNumberConversion()[pri:0, instance:com.epam.reportportal.example.testng.logback.step.NestedStepsWithDataProvider@7d1cb59f, instance params:[8, eight]]"
+          started-at="2025-05-14T17:06:45 MSK" name="testNumberConversion" finished-at="2025-05-14T17:06:45 MSK"
+          duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNumberConversion -->
+        <test-method
+          signature="testNumberConversion()[pri:0, instance:com.epam.reportportal.example.testng.logback.step.NestedStepsWithDataProvider@61e14b53, instance params:[5, five]]"
+          started-at="2025-05-14T17:06:45 MSK" name="testNumberConversion" finished-at="2025-05-14T17:06:45 MSK"
+          duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNumberConversion -->
+      </class> <!-- com.epam.reportportal.example.testng.logback.step.NestedStepsWithDataProvider -->
+    </test> <!-- Test number format -->
+  </suite> <!-- Nested steps tests -->
+  <suite started-at="2025-05-14T17:06:45 MSK" name="Callback Suite" finished-at="2025-05-14T17:06:45 MSK"
+    duration-ms="54">
+    <groups>
+    </groups>
+    <test started-at="2025-05-14T17:06:45 MSK" name="Callback Test" finished-at="2025-05-14T17:06:45 MSK"
+      duration-ms="54">
+      <class name="com.epam.reportportal.example.testng.logback.callback.CallbackReportingTest">
+        <test-method
+          signature="first()[pri:0, instance:com.epam.reportportal.example.testng.logback.callback.CallbackReportingTest@68a5aadd]"
+          started-at="2025-05-14T17:06:45 MSK" name="first" finished-at="2025-05-14T17:06:45 MSK" duration-ms="0"
+          status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- first -->
+        <test-method is-config="true"
+          signature="after(org.testng.ITestResult)[pri:0, instance:com.epam.reportportal.example.testng.logback.callback.CallbackReportingTest@68a5aadd]"
+          started-at="2025-05-14T17:06:45 MSK" name="after" finished-at="2025-05-14T17:06:45 MSK" duration-ms="52"
+          status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=first status=SUCCESS method=CallbackReportingTest.first()[pri:0, instance:com.epam.reportportal.example.testng.logback.callback.CallbackReportingTest@68a5aadd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.epam.reportportal.example.testng.logback.callback.CallbackReportingTest -->
+    </test> <!-- Callback Test -->
+  </suite> <!-- Callback Suite -->
+  <suite started-at="2025-05-14T17:06:45 MSK" name="Inner Logging Tests (0)" finished-at="2025-05-14T17:06:51 MSK"
+    duration-ms="6063">
+    <groups>
+    </groups>
+    <test started-at="2025-05-14T17:06:45 MSK" name="Parametrized Test" finished-at="2025-05-14T17:06:51 MSK"
+      duration-ms="6063">
+      <class name="com.epam.reportportal.example.testng.logback.parameterized.ParameterizedTest">
+        <test-method
+          signature="testParametersFromDataProvider(java.lang.String,java.lang.String)[pri:0, instance:com.epam.reportportal.example.testng.logback.parameterized.ParameterizedTest@16a09809]"
+          started-at="2025-05-14T17:06:45 MSK" name="testParametersFromDataProvider" data-provider="bla-bla"
+          finished-at="2025-05-14T17:06:50 MSK" duration-ms="5006" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[three]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParametersFromDataProvider -->
+        <test-method
+          signature="testParametersFromDataProvider(java.lang.String,java.lang.String)[pri:0, instance:com.epam.reportportal.example.testng.logback.parameterized.ParameterizedTest@16a09809]"
+          started-at="2025-05-14T17:06:45 MSK" name="testParametersFromDataProvider" data-provider="bla-bla"
+          finished-at="2025-05-14T17:06:50 MSK" duration-ms="5006" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[two]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[one]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParametersFromDataProvider -->
+        <test-method
+          signature="testParametersFromDataProvider(java.lang.String,java.lang.String)[pri:0, instance:com.epam.reportportal.example.testng.logback.parameterized.ParameterizedTest@16a09809]"
+          started-at="2025-05-14T17:06:45 MSK" name="testParametersFromDataProvider" data-provider="bla-bla"
+          finished-at="2025-05-14T17:06:50 MSK" duration-ms="5006" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[one]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[two]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParametersFromDataProvider -->
+        <test-method
+          signature="testParametersFromSuite(java.lang.String)[pri:0, instance:com.epam.reportportal.example.testng.logback.parameterized.ParameterizedTest@16a09809]"
+          started-at="2025-05-14T17:06:50 MSK" name="testParametersFromSuite" finished-at="2025-05-14T17:06:51 MSK"
+          duration-ms="1005" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[My great message]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParametersFromSuite -->
+      </class> <!-- com.epam.reportportal.example.testng.logback.parameterized.ParameterizedTest -->
+    </test> <!-- Parametrized Test -->
+  </suite> <!-- Inner Logging Tests (0) -->
+  <suite started-at="2025-05-14T17:06:40 MSK" name="Logging Tests" finished-at="2025-05-14T17:06:44 MSK"
+    duration-ms="4387">
+    <groups>
+    </groups>
+    <test started-at="2025-05-14T17:06:40 MSK" name="Lucky Pug" finished-at="2025-05-14T17:06:40 MSK" duration-ms="140">
+      <class name="com.epam.reportportal.example.testng.logback.logging.LuckyPugTest">
+        <test-method
+          signature="logImageBase64()[pri:0, instance:com.epam.reportportal.example.testng.logback.logging.LuckyPugTest@74ce7fdf]"
+          started-at="2025-05-14T17:06:40 MSK" name="logImageBase64" finished-at="2025-05-14T17:06:40 MSK"
+          duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logImageBase64 -->
+      </class> <!-- com.epam.reportportal.example.testng.logback.logging.LuckyPugTest -->
+    </test> <!-- Lucky Pug -->
+    <test started-at="2025-05-14T17:06:40 MSK" name="XML logging" finished-at="2025-05-14T17:06:40 MSK"
+      duration-ms="11">
+      <class name="com.epam.reportportal.example.testng.logback.logging.XmlLoggingTest">
+        <test-method
+          signature="logXmlBase64()[pri:0, instance:com.epam.reportportal.example.testng.logback.logging.XmlLoggingTest@131ba005]"
+          started-at="2025-05-14T17:06:40 MSK" name="logXmlBase64" finished-at="2025-05-14T17:06:40 MSK" duration-ms="1"
+          status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logXmlBase64 -->
+        <test-method
+          signature="logXmlFile()[pri:0, instance:com.epam.reportportal.example.testng.logback.logging.XmlLoggingTest@131ba005]"
+          started-at="2025-05-14T17:06:40 MSK" name="logXmlFile" finished-at="2025-05-14T17:06:40 MSK" duration-ms="5"
+          status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logXmlFile -->
+      </class> <!-- com.epam.reportportal.example.testng.logback.logging.XmlLoggingTest -->
+    </test> <!-- XML logging -->
+    <test started-at="2025-05-14T17:06:40 MSK" name="Json logging" finished-at="2025-05-14T17:06:40 MSK"
+      duration-ms="8">
+      <class name="com.epam.reportportal.example.testng.logback.logging.JsonLoggingTest">
+        <test-method
+          signature="logJsonBase64()[pri:0, instance:com.epam.reportportal.example.testng.logback.logging.JsonLoggingTest@399af6dc]"
+          started-at="2025-05-14T17:06:40 MSK" name="logJsonBase64" finished-at="2025-05-14T17:06:40 MSK"
+          duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logJsonBase64 -->
+        <test-method
+          signature="logJsonFile()[pri:0, instance:com.epam.reportportal.example.testng.logback.logging.JsonLoggingTest@399af6dc]"
+          started-at="2025-05-14T17:06:40 MSK" name="logJsonFile" finished-at="2025-05-14T17:06:40 MSK" duration-ms="1"
+          status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logJsonFile -->
+      </class> <!-- com.epam.reportportal.example.testng.logback.logging.JsonLoggingTest -->
+    </test> <!-- Json logging -->
+    <test started-at="2025-05-14T17:06:40 MSK" name="Different logging types" finished-at="2025-05-14T17:06:41 MSK"
+      duration-ms="703">
+      <class name="com.epam.reportportal.example.testng.logback.logging.LoggingTest">
+        <test-method
+          signature="logCmd()[pri:0, instance:com.epam.reportportal.example.testng.logback.logging.LoggingTest@21280cbb]"
+          started-at="2025-05-14T17:06:40 MSK" name="logCmd" finished-at="2025-05-14T17:06:40 MSK" duration-ms="1"
+          status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logCmd -->
+        <test-method
+          signature="logCss()[pri:0, instance:com.epam.reportportal.example.testng.logback.logging.LoggingTest@21280cbb]"
+          started-at="2025-05-14T17:06:40 MSK" name="logCss" finished-at="2025-05-14T17:06:40 MSK" duration-ms="1"
+          status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logCss -->
+        <test-method
+          signature="logCsv()[pri:0, instance:com.epam.reportportal.example.testng.logback.logging.LoggingTest@21280cbb]"
+          started-at="2025-05-14T17:06:40 MSK" name="logCsv" finished-at="2025-05-14T17:06:40 MSK" duration-ms="1"
+          status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logCsv -->
+        <test-method
+          signature="logHtml()[pri:0, instance:com.epam.reportportal.example.testng.logback.logging.LoggingTest@21280cbb]"
+          started-at="2025-05-14T17:06:40 MSK" name="logHtml" finished-at="2025-05-14T17:06:40 MSK" duration-ms="1"
+          status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logHtml -->
+        <test-method
+          signature="logInAwaitilityThread()[pri:0, instance:com.epam.reportportal.example.testng.logback.logging.LoggingTest@21280cbb]"
+          started-at="2025-05-14T17:06:40 MSK" name="logInAwaitilityThread" finished-at="2025-05-14T17:06:41 MSK"
+          duration-ms="679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInAwaitilityThread -->
+        <test-method
+          signature="logInChildThread()[pri:0, instance:com.epam.reportportal.example.testng.logback.logging.LoggingTest@21280cbb]"
+          started-at="2025-05-14T17:06:41 MSK" name="logInChildThread" finished-at="2025-05-14T17:06:41 MSK"
+          duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInChildThread -->
+        <test-method
+          signature="logJavascript()[pri:0, instance:com.epam.reportportal.example.testng.logback.logging.LoggingTest@21280cbb]"
+          started-at="2025-05-14T17:06:41 MSK" name="logJavascript" finished-at="2025-05-14T17:06:41 MSK"
+          duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logJavascript -->
+        <test-method
+          signature="logPdf()[pri:0, instance:com.epam.reportportal.example.testng.logback.logging.LoggingTest@21280cbb]"
+          started-at="2025-05-14T17:06:41 MSK" name="logPdf" finished-at="2025-05-14T17:06:41 MSK" duration-ms="1"
+          status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logPdf -->
+        <test-method
+          signature="logPhp()[pri:0, instance:com.epam.reportportal.example.testng.logback.logging.LoggingTest@21280cbb]"
+          started-at="2025-05-14T17:06:41 MSK" name="logPhp" finished-at="2025-05-14T17:06:41 MSK" duration-ms="1"
+          status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logPhp -->
+        <test-method
+          signature="logPlain()[pri:0, instance:com.epam.reportportal.example.testng.logback.logging.LoggingTest@21280cbb]"
+          started-at="2025-05-14T17:06:41 MSK" name="logPlain" finished-at="2025-05-14T17:06:41 MSK" duration-ms="1"
+          status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logPlain -->
+        <test-method
+          signature="logZip()[pri:0, instance:com.epam.reportportal.example.testng.logback.logging.LoggingTest@21280cbb]"
+          started-at="2025-05-14T17:06:41 MSK" name="logZip" finished-at="2025-05-14T17:06:41 MSK" duration-ms="1"
+          status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logZip -->
+      </class> <!-- com.epam.reportportal.example.testng.logback.logging.LoggingTest -->
+    </test> <!-- Different logging types -->
+    <test started-at="2025-05-14T17:06:41 MSK" name="Launch URL logging" finished-at="2025-05-14T17:06:41 MSK"
+      duration-ms="9">
+      <class name="com.epam.reportportal.example.testng.logback.logging.LaunchUrlLoggingTest">
+        <test-method
+          signature="emptyTest()[pri:0, instance:com.epam.reportportal.example.testng.logback.logging.LaunchUrlLoggingTest@708769b7]"
+          started-at="2025-05-14T17:06:41 MSK" name="emptyTest" finished-at="2025-05-14T17:06:41 MSK" duration-ms="2"
+          status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyTest -->
+        <test-method is-config="true"
+          signature="logLaunchUrl()[pri:0, instance:com.epam.reportportal.example.testng.logback.logging.LaunchUrlLoggingTest@708769b7]"
+          started-at="2025-05-14T17:06:41 MSK" name="logLaunchUrl" finished-at="2025-05-14T17:06:41 MSK" duration-ms="2"
+          status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logLaunchUrl -->
+      </class> <!-- com.epam.reportportal.example.testng.logback.logging.LaunchUrlLoggingTest -->
+    </test> <!-- Launch URL logging -->
+    <test started-at="2025-05-14T17:06:41 MSK" name="REST Assured basic logging test"
+      finished-at="2025-05-14T17:06:43 MSK" duration-ms="2137">
+      <class name="com.epam.reportportal.example.testng.logback.logging.restassured.RestAssuredBasicLoggingTest">
+        <test-method
+          signature="restAssuredLoggingTest()[pri:0, instance:com.epam.reportportal.example.testng.logback.logging.restassured.RestAssuredBasicLoggingTest@3d235635]"
+          started-at="2025-05-14T17:06:41 MSK" name="restAssuredLoggingTest" finished-at="2025-05-14T17:06:43 MSK"
+          duration-ms="2135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restAssuredLoggingTest -->
+      </class> <!-- com.epam.reportportal.example.testng.logback.logging.restassured.RestAssuredBasicLoggingTest -->
+    </test> <!-- REST Assured basic logging test -->
+    <test started-at="2025-05-14T17:06:43 MSK" name="REST Assured Form request logging test"
+      finished-at="2025-05-14T17:06:43 MSK" duration-ms="195">
+      <class name="com.epam.reportportal.example.testng.logback.logging.restassured.RestAssuredFormTest">
+        <test-method is-config="true"
+          signature="setupRestAssured()[pri:0, instance:com.epam.reportportal.example.testng.logback.logging.restassured.RestAssuredFormTest@1bfa3893]"
+          started-at="2025-05-14T17:06:43 MSK" name="setupRestAssured" finished-at="2025-05-14T17:06:43 MSK"
+          duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRestAssured -->
+        <test-method
+          signature="restAssuredLoggingTest()[pri:0, instance:com.epam.reportportal.example.testng.logback.logging.restassured.RestAssuredFormTest@1bfa3893]"
+          started-at="2025-05-14T17:06:43 MSK" name="restAssuredLoggingTest" finished-at="2025-05-14T17:06:43 MSK"
+          duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restAssuredLoggingTest -->
+      </class> <!-- com.epam.reportportal.example.testng.logback.logging.restassured.RestAssuredFormTest -->
+    </test> <!-- REST Assured Form request logging test -->
+    <test started-at="2025-05-14T17:06:43 MSK" name="REST Assured simple request headers sanitizing test"
+      finished-at="2025-05-14T17:06:44 MSK" duration-ms="1102">
+      <class name="com.epam.reportportal.example.testng.logback.logging.restassured.RestAssuredAdvanceSanitizeTest">
+        <test-method is-config="true"
+          signature="setupRestAssured()[pri:0, instance:com.epam.reportportal.example.testng.logback.logging.restassured.RestAssuredAdvanceSanitizeTest@31006a75]"
+          started-at="2025-05-14T17:06:43 MSK" name="setupRestAssured" finished-at="2025-05-14T17:06:43 MSK"
+          duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRestAssured -->
+        <test-method is-config="true"
+          signature="startWireMock()[pri:0, instance:com.epam.reportportal.example.testng.logback.logging.restassured.RestAssuredAdvanceSanitizeTest@31006a75]"
+          started-at="2025-05-14T17:06:43 MSK" name="startWireMock" finished-at="2025-05-14T17:06:44 MSK"
+          duration-ms="897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWireMock -->
+        <test-method
+          signature="advanceRestAssuredLoggingTest()[pri:0, instance:com.epam.reportportal.example.testng.logback.logging.restassured.RestAssuredAdvanceSanitizeTest@31006a75]"
+          started-at="2025-05-14T17:06:44 MSK" name="advanceRestAssuredLoggingTest"
+          finished-at="2025-05-14T17:06:44 MSK" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- advanceRestAssuredLoggingTest -->
+        <test-method is-config="true"
+          signature="stopWireMock()[pri:0, instance:com.epam.reportportal.example.testng.logback.logging.restassured.RestAssuredAdvanceSanitizeTest@31006a75]"
+          started-at="2025-05-14T17:06:44 MSK" name="stopWireMock" finished-at="2025-05-14T17:06:44 MSK"
+          duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopWireMock -->
+      </class> <!-- com.epam.reportportal.example.testng.logback.logging.restassured.RestAssuredAdvanceSanitizeTest -->
+    </test> <!-- REST Assured simple request headers sanitizing test -->
+    <test started-at="2025-05-14T17:06:44 MSK" name="REST Assured advance request sanitizing test"
+      finished-at="2025-05-14T17:06:44 MSK" duration-ms="38">
+      <class name="com.epam.reportportal.example.testng.logback.logging.restassured.RestAssuredAdvanceSanitizeTest">
+        <test-method is-config="true"
+          signature="setupRestAssured()[pri:0, instance:com.epam.reportportal.example.testng.logback.logging.restassured.RestAssuredAdvanceSanitizeTest@5d6b42cf]"
+          started-at="2025-05-14T17:06:44 MSK" name="setupRestAssured" finished-at="2025-05-14T17:06:44 MSK"
+          duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRestAssured -->
+        <test-method is-config="true"
+          signature="startWireMock()[pri:0, instance:com.epam.reportportal.example.testng.logback.logging.restassured.RestAssuredAdvanceSanitizeTest@5d6b42cf]"
+          started-at="2025-05-14T17:06:44 MSK" name="startWireMock" finished-at="2025-05-14T17:06:44 MSK"
+          duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWireMock -->
+        <test-method
+          signature="advanceRestAssuredLoggingTest()[pri:0, instance:com.epam.reportportal.example.testng.logback.logging.restassured.RestAssuredAdvanceSanitizeTest@5d6b42cf]"
+          started-at="2025-05-14T17:06:44 MSK" name="advanceRestAssuredLoggingTest"
+          finished-at="2025-05-14T17:06:44 MSK" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- advanceRestAssuredLoggingTest -->
+        <test-method is-config="true"
+          signature="stopWireMock()[pri:0, instance:com.epam.reportportal.example.testng.logback.logging.restassured.RestAssuredAdvanceSanitizeTest@5d6b42cf]"
+          started-at="2025-05-14T17:06:44 MSK" name="stopWireMock" finished-at="2025-05-14T17:06:44 MSK" duration-ms="3"
+          status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopWireMock -->
+      </class> <!-- com.epam.reportportal.example.testng.logback.logging.restassured.RestAssuredAdvanceSanitizeTest -->
+      <class name="com.epam.reportportal.example.testng.logback.logging.restassured.RestAssuredBasicLoggingTest">
+        <test-method is-config="true"
+          signature="setupRestAssured()[pri:0, instance:com.epam.reportportal.example.testng.logback.logging.restassured.RestAssuredBasicLoggingTest@3d235635]"
+          started-at="2025-05-14T17:06:39 MSK" name="setupRestAssured" finished-at="2025-05-14T17:06:40 MSK"
+          duration-ms="585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRestAssured -->
+      </class> <!-- com.epam.reportportal.example.testng.logback.logging.restassured.RestAssuredBasicLoggingTest -->
+    </test> <!-- REST Assured advance request sanitizing test -->
+  </suite> <!-- Logging Tests -->
+  <suite started-at="2025-05-14T17:06:51 MSK" name="Custom Annotations Test" finished-at="2025-05-14T17:06:51 MSK"
+    duration-ms="87">
+    <groups>
+    </groups>
+    <test started-at="2025-05-14T17:06:51 MSK" name="Description Annotation Test" finished-at="2025-05-14T17:06:51 MSK"
+      duration-ms="4">
+      <class name="com.epam.reportportal.example.testng.logback.annotated.DescriptionTest">
+        <test-method
+          signature="testDescription()[pri:0, instance:com.epam.reportportal.example.testng.logback.annotated.DescriptionTest@78bad03b]"
+          started-at="2025-05-14T17:06:51 MSK" name="testDescription" description="Description from Test annotation"
+          finished-at="2025-05-14T17:06:51 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDescription -->
+        <test-method
+          signature="testDescriptionAnnotation()[pri:0, instance:com.epam.reportportal.example.testng.logback.annotated.DescriptionTest@78bad03b]"
+          started-at="2025-05-14T17:06:51 MSK" name="testDescriptionAnnotation" finished-at="2025-05-14T17:06:51 MSK"
+          duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDescriptionAnnotation -->
+        <test-method
+          signature="testDescriptionAnnotationOverridesTestAnnotation()[pri:0, instance:com.epam.reportportal.example.testng.logback.annotated.DescriptionTest@78bad03b]"
+          started-at="2025-05-14T17:06:51 MSK" name="testDescriptionAnnotationOverridesTestAnnotation"
+          description="Description from Test annotation should be ignored" finished-at="2025-05-14T17:06:51 MSK"
+          duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDescriptionAnnotationOverridesTestAnnotation -->
+      </class> <!-- com.epam.reportportal.example.testng.logback.annotated.DescriptionTest -->
+    </test> <!-- Description Annotation Test -->
+    <test started-at="2025-05-14T17:06:51 MSK" name="Display Name Annotation Test" finished-at="2025-05-14T17:06:51 MSK"
+      duration-ms="3">
+      <class name="com.epam.reportportal.example.testng.logback.annotated.DisplayNameTest">
+        <test-method
+          signature="testDisplayNameFromTest()[pri:0, instance:com.epam.reportportal.example.testng.logback.annotated.DisplayNameTest@55d1f065]"
+          started-at="2025-05-14T17:06:51 MSK" name="testDisplayNameFromTest"
+          test-instance-name="Name from Test annotation" finished-at="2025-05-14T17:06:51 MSK" duration-ms="1"
+          status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDisplayNameFromTest -->
+        <test-method
+          signature="testDisplayNameOverride()[pri:0, instance:com.epam.reportportal.example.testng.logback.annotated.DisplayNameTest@55d1f065]"
+          started-at="2025-05-14T17:06:51 MSK" name="testDisplayNameOverride"
+          test-instance-name="Name from Test annotation" finished-at="2025-05-14T17:06:51 MSK" duration-ms="1"
+          status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDisplayNameOverride -->
+      </class> <!-- com.epam.reportportal.example.testng.logback.annotated.DisplayNameTest -->
+    </test> <!-- Display Name Annotation Test -->
+    <test started-at="2025-05-14T17:06:51 MSK" name="Test case id test" finished-at="2025-05-14T17:06:51 MSK"
+      duration-ms="46">
+      <class name="com.epam.reportportal.example.testng.logback.annotated.TestCaseIdTest">
+        <test-method
+          signature="parametrizedTestTemplate(java.lang.String,java.lang.Integer,java.lang.Integer)[pri:0, instance:com.epam.reportportal.example.testng.logback.annotated.TestCaseIdTest@4315fe1b]"
+          started-at="2025-05-14T17:06:51 MSK" name="parametrizedTestTemplate" data-provider="numbersProvider"
+          finished-at="2025-05-14T17:06:51 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TNG.1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parametrizedTestTemplate -->
+        <test-method
+          signature="parametrizedTestTemplate(java.lang.String,java.lang.Integer,java.lang.Integer)[pri:0, instance:com.epam.reportportal.example.testng.logback.annotated.TestCaseIdTest@4315fe1b]"
+          started-at="2025-05-14T17:06:51 MSK" name="parametrizedTestTemplate" data-provider="numbersProvider"
+          finished-at="2025-05-14T17:06:51 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TNG.1.1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parametrizedTestTemplate -->
+        <test-method
+          signature="parametrizedTestTemplate(java.lang.String,java.lang.Integer,java.lang.Integer)[pri:0, instance:com.epam.reportportal.example.testng.logback.annotated.TestCaseIdTest@4315fe1b]"
+          started-at="2025-05-14T17:06:51 MSK" name="parametrizedTestTemplate" data-provider="numbersProvider"
+          finished-at="2025-05-14T17:06:51 MSK" duration-ms="13" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TNG.1.2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[19]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [20] but found [19]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [20] but found [19]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1419)
+at org.testng.Assert.assertEquals(Assert.java:1459)
+at com.epam.reportportal.example.testng.logback.annotated.TestCaseIdTest.parametrizedTestTemplate(TestCaseIdTest.java:56)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parametrizedTestTemplate -->
+        <test-method
+          signature="parametrizedTestWithKey(java.lang.String,java.lang.Integer,java.lang.Integer)[pri:0, instance:com.epam.reportportal.example.testng.logback.annotated.TestCaseIdTest@4315fe1b]"
+          started-at="2025-05-14T17:06:51 MSK" name="parametrizedTestWithKey" data-provider="numbersProvider"
+          finished-at="2025-05-14T17:06:51 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TNG.1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parametrizedTestWithKey -->
+        <test-method
+          signature="parametrizedTestWithKey(java.lang.String,java.lang.Integer,java.lang.Integer)[pri:0, instance:com.epam.reportportal.example.testng.logback.annotated.TestCaseIdTest@4315fe1b]"
+          started-at="2025-05-14T17:06:51 MSK" name="parametrizedTestWithKey" data-provider="numbersProvider"
+          finished-at="2025-05-14T17:06:51 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TNG.1.1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parametrizedTestWithKey -->
+        <test-method
+          signature="parametrizedTestWithKey(java.lang.String,java.lang.Integer,java.lang.Integer)[pri:0, instance:com.epam.reportportal.example.testng.logback.annotated.TestCaseIdTest@4315fe1b]"
+          started-at="2025-05-14T17:06:51 MSK" name="parametrizedTestWithKey" data-provider="numbersProvider"
+          finished-at="2025-05-14T17:06:51 MSK" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TNG.1.2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[19]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [20] but found [19]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [20] but found [19]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1419)
+at org.testng.Assert.assertEquals(Assert.java:1459)
+at com.epam.reportportal.example.testng.logback.annotated.TestCaseIdTest.parametrizedTestWithKey(TestCaseIdTest.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parametrizedTestWithKey -->
+        <test-method
+          signature="parametrizedTestWithoutKey(java.lang.String,java.lang.Integer,java.lang.Integer)[pri:0, instance:com.epam.reportportal.example.testng.logback.annotated.TestCaseIdTest@4315fe1b]"
+          started-at="2025-05-14T17:06:51 MSK" name="parametrizedTestWithoutKey" data-provider="numbersProvider"
+          finished-at="2025-05-14T17:06:51 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TNG.1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parametrizedTestWithoutKey -->
+        <test-method
+          signature="parametrizedTestWithoutKey(java.lang.String,java.lang.Integer,java.lang.Integer)[pri:0, instance:com.epam.reportportal.example.testng.logback.annotated.TestCaseIdTest@4315fe1b]"
+          started-at="2025-05-14T17:06:51 MSK" name="parametrizedTestWithoutKey" data-provider="numbersProvider"
+          finished-at="2025-05-14T17:06:51 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TNG.1.1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parametrizedTestWithoutKey -->
+        <test-method
+          signature="parametrizedTestWithoutKey(java.lang.String,java.lang.Integer,java.lang.Integer)[pri:0, instance:com.epam.reportportal.example.testng.logback.annotated.TestCaseIdTest@4315fe1b]"
+          started-at="2025-05-14T17:06:51 MSK" name="parametrizedTestWithoutKey" data-provider="numbersProvider"
+          finished-at="2025-05-14T17:06:51 MSK" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TNG.1.2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[19]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [20] but found [19]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [20] but found [19]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1419)
+at org.testng.Assert.assertEquals(Assert.java:1459)
+at com.epam.reportportal.example.testng.logback.annotated.TestCaseIdTest.parametrizedTestWithoutKey(TestCaseIdTest.java:50)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parametrizedTestWithoutKey -->
+        <test-method
+          signature="simpleTest()[pri:0, instance:com.epam.reportportal.example.testng.logback.annotated.TestCaseIdTest@4315fe1b]"
+          started-at="2025-05-14T17:06:51 MSK" name="simpleTest" finished-at="2025-05-14T17:06:51 MSK" duration-ms="1"
+          status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- simpleTest -->
+      </class> <!-- com.epam.reportportal.example.testng.logback.annotated.TestCaseIdTest -->
+    </test> <!-- Test case id test -->
+    <test started-at="2025-05-14T17:06:51 MSK" name="Runtime Issue reporting for simple test"
+      finished-at="2025-05-14T17:06:51 MSK" duration-ms="8">
+      <class name="com.epam.reportportal.example.testng.logback.annotated.SimpleIssueTest">
+        <test-method
+          signature="failureTest()[pri:0, instance:com.epam.reportportal.example.testng.logback.annotated.SimpleIssueTest@250a946]"
+          started-at="2025-05-14T17:06:51 MSK" name="failureTest" finished-at="2025-05-14T17:06:51 MSK" duration-ms="1"
+          status="FAIL">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[This test is expected to fail]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: This test is expected to fail
+at com.epam.reportportal.example.testng.logback.annotated.SimpleIssueTest.failureTest(SimpleIssueTest.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+            <line>
+              <![CDATA[This test is expected to fail]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- failureTest -->
+      </class> <!-- com.epam.reportportal.example.testng.logback.annotated.SimpleIssueTest -->
+    </test> <!-- Runtime Issue reporting for simple test -->
+    <test started-at="2025-05-14T17:06:51 MSK" name="Runtime Issue reporting for parameterized test"
+      finished-at="2025-05-14T17:06:51 MSK" duration-ms="8">
+      <class name="com.epam.reportportal.example.testng.logback.annotated.TwoIssuesTest">
+        <test-method
+          signature="failureTest(boolean)[pri:0, instance:com.epam.reportportal.example.testng.logback.annotated.TwoIssuesTest@4d2f9e3c]"
+          started-at="2025-05-14T17:06:51 MSK" name="failureTest" data-provider="paramsProvider"
+          finished-at="2025-05-14T17:06:51 MSK" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[This parameterized test is expected to fail: true]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: This parameterized test is expected to fail: true
+at com.epam.reportportal.example.testng.logback.annotated.TwoIssuesTest.failureTest(TwoIssuesTest.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failureTest -->
+        <test-method
+          signature="failureTest(boolean)[pri:0, instance:com.epam.reportportal.example.testng.logback.annotated.TwoIssuesTest@4d2f9e3c]"
+          started-at="2025-05-14T17:06:51 MSK" name="failureTest" data-provider="paramsProvider"
+          finished-at="2025-05-14T17:06:51 MSK" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[This parameterized test is expected to fail: false]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: This parameterized test is expected to fail: false
+at com.epam.reportportal.example.testng.logback.annotated.TwoIssuesTest.failureTest(TwoIssuesTest.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failureTest -->
+      </class> <!-- com.epam.reportportal.example.testng.logback.annotated.TwoIssuesTest -->
+    </test> <!-- Runtime Issue reporting for parameterized test -->
+  </suite> <!-- Custom Annotations Test -->
+  <suite started-at="2025-05-14T17:06:39 MSK" name="Inner Logging Tests" finished-at="2025-05-14T17:06:39 MSK"
+    duration-ms="421">
+    <groups>
+    </groups>
+    <test started-at="2025-05-14T17:06:39 MSK" name="Retry test" finished-at="2025-05-14T17:06:39 MSK"
+      duration-ms="421">
+      <class name="com.epam.reportportal.example.testng.logback.extension.RetryTest">
+        <test-method retried="true"
+          signature="failOne()[pri:0, instance:com.epam.reportportal.example.testng.logback.extension.RetryTest@305aaedf]"
+          started-at="2025-05-14T17:06:39 MSK" name="failOne" finished-at="2025-05-14T17:06:39 MSK" duration-ms="44"
+          status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Ooops]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Ooops
+at org.testng.Assert.fail(Assert.java:111)
+at com.epam.reportportal.example.testng.logback.extension.RetryTest.failOne(RetryTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1296)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failOne -->
+        <test-method retried="true"
+          signature="failOne()[pri:0, instance:com.epam.reportportal.example.testng.logback.extension.RetryTest@305aaedf]"
+          started-at="2025-05-14T17:06:39 MSK" name="failOne" finished-at="2025-05-14T17:06:39 MSK" duration-ms="15"
+          status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Ooops]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Ooops
+at org.testng.Assert.fail(Assert.java:111)
+at com.epam.reportportal.example.testng.logback.extension.RetryTest.failOne(RetryTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:249)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1296)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failOne -->
+        <test-method retried="true"
+          signature="failOne()[pri:0, instance:com.epam.reportportal.example.testng.logback.extension.RetryTest@305aaedf]"
+          started-at="2025-05-14T17:06:39 MSK" name="failOne" finished-at="2025-05-14T17:06:39 MSK" duration-ms="15"
+          status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Ooops]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Ooops
+at org.testng.Assert.fail(Assert.java:111)
+at com.epam.reportportal.example.testng.logback.extension.RetryTest.failOne(RetryTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:249)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1296)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failOne -->
+        <test-method retried="true"
+          signature="failOne()[pri:0, instance:com.epam.reportportal.example.testng.logback.extension.RetryTest@305aaedf]"
+          started-at="2025-05-14T17:06:39 MSK" name="failOne" finished-at="2025-05-14T17:06:39 MSK" duration-ms="17"
+          status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Ooops]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Ooops
+at org.testng.Assert.fail(Assert.java:111)
+at com.epam.reportportal.example.testng.logback.extension.RetryTest.failOne(RetryTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:249)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1296)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failOne -->
+        <test-method retried="true"
+          signature="failOne()[pri:0, instance:com.epam.reportportal.example.testng.logback.extension.RetryTest@305aaedf]"
+          started-at="2025-05-14T17:06:39 MSK" name="failOne" finished-at="2025-05-14T17:06:39 MSK" duration-ms="16"
+          status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Ooops]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Ooops
+at org.testng.Assert.fail(Assert.java:111)
+at com.epam.reportportal.example.testng.logback.extension.RetryTest.failOne(RetryTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:249)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1296)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failOne -->
+        <test-method retried="true"
+          signature="failOne()[pri:0, instance:com.epam.reportportal.example.testng.logback.extension.RetryTest@305aaedf]"
+          started-at="2025-05-14T17:06:39 MSK" name="failOne" finished-at="2025-05-14T17:06:39 MSK" duration-ms="22"
+          status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Ooops]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Ooops
+at org.testng.Assert.fail(Assert.java:111)
+at com.epam.reportportal.example.testng.logback.extension.RetryTest.failOne(RetryTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:249)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1296)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failOne -->
+        <test-method retried="true"
+          signature="failOne()[pri:0, instance:com.epam.reportportal.example.testng.logback.extension.RetryTest@305aaedf]"
+          started-at="2025-05-14T17:06:39 MSK" name="failOne" finished-at="2025-05-14T17:06:39 MSK" duration-ms="14"
+          status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Ooops]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Ooops
+at org.testng.Assert.fail(Assert.java:111)
+at com.epam.reportportal.example.testng.logback.extension.RetryTest.failOne(RetryTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:249)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1296)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failOne -->
+        <test-method retried="true"
+          signature="failOne()[pri:0, instance:com.epam.reportportal.example.testng.logback.extension.RetryTest@305aaedf]"
+          started-at="2025-05-14T17:06:39 MSK" name="failOne" finished-at="2025-05-14T17:06:39 MSK" duration-ms="16"
+          status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Ooops]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Ooops
+at org.testng.Assert.fail(Assert.java:111)
+at com.epam.reportportal.example.testng.logback.extension.RetryTest.failOne(RetryTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:249)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1296)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failOne -->
+        <test-method retried="true"
+          signature="failOne()[pri:0, instance:com.epam.reportportal.example.testng.logback.extension.RetryTest@305aaedf]"
+          started-at="2025-05-14T17:06:39 MSK" name="failOne" finished-at="2025-05-14T17:06:39 MSK" duration-ms="13"
+          status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Ooops]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Ooops
+at org.testng.Assert.fail(Assert.java:111)
+at com.epam.reportportal.example.testng.logback.extension.RetryTest.failOne(RetryTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:249)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1296)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failOne -->
+        <test-method retried="true"
+          signature="failOne()[pri:0, instance:com.epam.reportportal.example.testng.logback.extension.RetryTest@305aaedf]"
+          started-at="2025-05-14T17:06:39 MSK" name="failOne" finished-at="2025-05-14T17:06:39 MSK" duration-ms="15"
+          status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Ooops]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Ooops
+at org.testng.Assert.fail(Assert.java:111)
+at com.epam.reportportal.example.testng.logback.extension.RetryTest.failOne(RetryTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:249)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1296)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failOne -->
+        <test-method retried="true"
+          signature="failOne()[pri:0, instance:com.epam.reportportal.example.testng.logback.extension.RetryTest@305aaedf]"
+          started-at="2025-05-14T17:06:39 MSK" name="failOne" finished-at="2025-05-14T17:06:39 MSK" duration-ms="14"
+          status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Ooops]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Ooops
+at org.testng.Assert.fail(Assert.java:111)
+at com.epam.reportportal.example.testng.logback.extension.RetryTest.failOne(RetryTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:249)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1296)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failOne -->
+        <test-method retried="true"
+          signature="failOne()[pri:0, instance:com.epam.reportportal.example.testng.logback.extension.RetryTest@305aaedf]"
+          started-at="2025-05-14T17:06:39 MSK" name="failOne" finished-at="2025-05-14T17:06:39 MSK" duration-ms="14"
+          status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Ooops]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Ooops
+at org.testng.Assert.fail(Assert.java:111)
+at com.epam.reportportal.example.testng.logback.extension.RetryTest.failOne(RetryTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:249)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1296)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failOne -->
+        <test-method retried="true"
+          signature="failOne()[pri:0, instance:com.epam.reportportal.example.testng.logback.extension.RetryTest@305aaedf]"
+          started-at="2025-05-14T17:06:39 MSK" name="failOne" finished-at="2025-05-14T17:06:39 MSK" duration-ms="14"
+          status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Ooops]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Ooops
+at org.testng.Assert.fail(Assert.java:111)
+at com.epam.reportportal.example.testng.logback.extension.RetryTest.failOne(RetryTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:249)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1296)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failOne -->
+        <test-method retried="true"
+          signature="failOne()[pri:0, instance:com.epam.reportportal.example.testng.logback.extension.RetryTest@305aaedf]"
+          started-at="2025-05-14T17:06:39 MSK" name="failOne" finished-at="2025-05-14T17:06:39 MSK" duration-ms="14"
+          status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Ooops]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Ooops
+at org.testng.Assert.fail(Assert.java:111)
+at com.epam.reportportal.example.testng.logback.extension.RetryTest.failOne(RetryTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:249)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1296)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failOne -->
+        <test-method retried="true"
+          signature="failOne()[pri:0, instance:com.epam.reportportal.example.testng.logback.extension.RetryTest@305aaedf]"
+          started-at="2025-05-14T17:06:39 MSK" name="failOne" finished-at="2025-05-14T17:06:39 MSK" duration-ms="13"
+          status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Ooops]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Ooops
+at org.testng.Assert.fail(Assert.java:111)
+at com.epam.reportportal.example.testng.logback.extension.RetryTest.failOne(RetryTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:249)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1296)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failOne -->
+        <test-method retried="true"
+          signature="failOne()[pri:0, instance:com.epam.reportportal.example.testng.logback.extension.RetryTest@305aaedf]"
+          started-at="2025-05-14T17:06:39 MSK" name="failOne" finished-at="2025-05-14T17:06:39 MSK" duration-ms="15"
+          status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Ooops]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Ooops
+at org.testng.Assert.fail(Assert.java:111)
+at com.epam.reportportal.example.testng.logback.extension.RetryTest.failOne(RetryTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:249)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1296)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failOne -->
+        <test-method retried="true"
+          signature="failOne()[pri:0, instance:com.epam.reportportal.example.testng.logback.extension.RetryTest@305aaedf]"
+          started-at="2025-05-14T17:06:39 MSK" name="failOne" finished-at="2025-05-14T17:06:39 MSK" duration-ms="15"
+          status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Ooops]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Ooops
+at org.testng.Assert.fail(Assert.java:111)
+at com.epam.reportportal.example.testng.logback.extension.RetryTest.failOne(RetryTest.java:42)
+at jdk.internal.reflect.GeneratedMethodAccessor39.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:249)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1296)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failOne -->
+        <test-method retried="true"
+          signature="failOne()[pri:0, instance:com.epam.reportportal.example.testng.logback.extension.RetryTest@305aaedf]"
+          started-at="2025-05-14T17:06:39 MSK" name="failOne" finished-at="2025-05-14T17:06:39 MSK" duration-ms="16"
+          status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Ooops]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Ooops
+at org.testng.Assert.fail(Assert.java:111)
+at com.epam.reportportal.example.testng.logback.extension.RetryTest.failOne(RetryTest.java:42)
+at jdk.internal.reflect.GeneratedMethodAccessor39.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:249)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1296)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failOne -->
+        <test-method retried="true"
+          signature="failOne()[pri:0, instance:com.epam.reportportal.example.testng.logback.extension.RetryTest@305aaedf]"
+          started-at="2025-05-14T17:06:39 MSK" name="failOne" finished-at="2025-05-14T17:06:39 MSK" duration-ms="14"
+          status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Ooops]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Ooops
+at org.testng.Assert.fail(Assert.java:111)
+at com.epam.reportportal.example.testng.logback.extension.RetryTest.failOne(RetryTest.java:42)
+at jdk.internal.reflect.GeneratedMethodAccessor39.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:249)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1296)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failOne -->
+        <test-method retried="true"
+          signature="failOne()[pri:0, instance:com.epam.reportportal.example.testng.logback.extension.RetryTest@305aaedf]"
+          started-at="2025-05-14T17:06:39 MSK" name="failOne" finished-at="2025-05-14T17:06:39 MSK" duration-ms="12"
+          status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Ooops]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Ooops
+at org.testng.Assert.fail(Assert.java:111)
+at com.epam.reportportal.example.testng.logback.extension.RetryTest.failOne(RetryTest.java:42)
+at jdk.internal.reflect.GeneratedMethodAccessor39.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:249)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1296)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failOne -->
+        <test-method
+          signature="failOne()[pri:0, instance:com.epam.reportportal.example.testng.logback.extension.RetryTest@305aaedf]"
+          started-at="2025-05-14T17:06:39 MSK" name="failOne" finished-at="2025-05-14T17:06:39 MSK" duration-ms="11"
+          status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failOne -->
+      </class> <!-- com.epam.reportportal.example.testng.logback.extension.RetryTest -->
+    </test> <!-- Retry test -->
+  </suite> <!-- Inner Logging Tests -->
+</testng-results>

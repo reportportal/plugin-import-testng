@@ -54,7 +54,6 @@ const config = {
     alias: {
       components: path.resolve(__dirname, 'src/components'),
       constants: path.resolve(__dirname, 'src/constants'),
-      icons: path.resolve(__dirname, 'src/icons'),
       hooks: path.resolve(__dirname, 'src/hooks'),
       types: path.resolve(__dirname, 'src/types'),
       utils: path.resolve(__dirname, 'src/utils'),
@@ -114,16 +113,7 @@ const config = {
           requiredVersion: pjson.dependencies['react-intl'],
         },
       },
-      exposes: {
-        './instanceAdminPage': './src/components/instanceAdminPage/instanceAdminPage.tsx',
-        './instanceAdminSidebarNav':
-          './src/components/instanceAdminSidebarNav/instanceAdminSidebarNav.tsx',
-        './organizationSettingsTab':
-          './src/components/organizationSettingsTab/organizationSettingsTab.tsx',
-        './organizationSidebarNav':
-          './src/components/organizationSidebarNav/organizationSidebarNav.tsx',
-        './projectSettingsTab': './src/components/projectSettingsTab/projectSettingsTab.tsx',
-      },
+      exposes: {},
     }),
     new CopyPlugin({
       patterns: [
